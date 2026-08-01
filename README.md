@@ -95,23 +95,34 @@ directory containing noggit.exe, i.e. `CMAKE_INSTALL_PREFIX` configured.
 * debug: Qt5Cored, Qt5OpenGLd, Qt5Widgetsd, Qt5Guid 
 
 ## Linux ##
-On **Ubuntu** you can install the building requirements using:
+### Ubuntu 26.04
+
+Install the required packages:
 
 ```bash
-sudo apt install freeglut3-dev libboost-all-dev qt5-default libstorm-dev
+sudo apt update
+
+sudo apt install \
+    git \
+    build-essential \
+    cmake \
+    ninja-build \
+    freeglut3-dev \
+    libboost-all-dev \
+    libstorm-dev \
+    qtbase5-dev \
+    qtbase5-private-dev \
+    qtbase5-dev-tools \
+    qt5-qmake \
+    qttools5-dev \
+    qttools5-dev-tools \
+    qtdeclarative5-dev \
+    qtmultimedia5-dev \
+    libqt5opengl5-dev \
+    libqt5svg5-dev \
+    libqt5x11extras5-dev \
+    liblua5.4-dev
 ```
-
-Compile and build using:
-
-```bash
-mkdir build
-cd build
-cmake ..
-make -j $(nproc)
-```
-
-Instead of `make -j $(nproc)` you may want to pick a bigger number than
-`$(nproc)`, e.g. the number of `CPU cores * 1.5`.
 
 If the build pass correctly without errors, you can go into build/bin/
 and run noggit. Note that `make install` will probably work but is not
