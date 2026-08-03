@@ -2,7 +2,7 @@
 #include "ui_Changelog.h"
 
 #include <qdir.h>
-#include <qtextstream.h>
+#include <qtextstream>
 
 namespace Noggit
 {
