@@ -16,9 +16,9 @@
 #include <QComboBoxh>
 #include <QDoubleSpinBox>
 #include <QFormLayout>
-#include <qgroupboxh>
+#include <QGroupBox>
 #include <QLabelh>
-#include <qlineedith>
+#include <QLineEdit>
 #include <QPushButton>
 #include <QSlider>
 #include <QSpinBoxh>
