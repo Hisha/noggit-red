@@ -11,7 +11,7 @@
 #include <noggit/World.h>
 
 #include <QButtonGroup>
-#include <qcheckbox>
+#include <QCheckBox>
 #include <QDial>
 #include <QGridLayout>
 #include <QGroupBox>
