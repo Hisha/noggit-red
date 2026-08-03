@@ -5,7 +5,7 @@
 
 #include <QWidget>
 #include <noggit/MapView.h>
-#include <QtWidgets/qtreewidget.h>
+#include <qtreewidget>
 
 class LightViewPreview;
 class LightViewEditor;
