@@ -32,11 +32,11 @@
 #include <QPushButton>
 #include <QRadioButton>
 #include <QSettings>
-#include <QtWidgets/qcombobox.h>
-#include <QtWidgets/QDoubleSpinBox>
-#include <QtWidgets/qgroupbox.h>
-#include <QtWidgets/QMessageBox>
-#include <QtWidgets/QSlider>
+#include <qcombobox>
+#include <QDoubleSpinBox>
+#include <qgroupbox>
+#include <QMessageBox>
+#include <QSlider>
 
 #include <fstream>
 #include <regex>
