@@ -26,6 +26,7 @@
 #include <QVBoxLayout>
 
 #include <bitset>
+#include <cmath>
 #include <iostream>
 #include <sstream>
 #include <string>
