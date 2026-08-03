@@ -7,13 +7,13 @@
 
 #include <QListWidget>
 #include <QToolButton>
-#include <QtWidgets/QFormLayout>
-#include <QtWidgets/qgroupbox.h>
+#include <QFormLayout>
+#include <qgroupbox>
 #include <QLabel>
 #include <QSpinBox>
-#include <QtWidgets/qlineedit.h>
-#include <QtWidgets/qpushbutton.h>
-#include <QtWidgets/QVBoxLayout>
+#include <qlineedit>
+#include <qpushbutton>
+#include <QVBoxLayout>
 
 #include <sstream>
 #include <string>
