@@ -8,11 +8,11 @@
 #include <QListWidget>
 #include <QToolButton>
 #include <QFormLayout>
-#include <qgroupbox>
+#include <QGroupBox>
 #include <QLabel>
 #include <QSpinBox>
-#include <qlineedit>
-#include <qpushbutton>
+#include <QLineEdit>
+#include <QPushButton>
 #include <QVBoxLayout>
 
 #include <sstream>
