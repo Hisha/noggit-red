@@ -5,11 +5,11 @@
 #include <noggit/DBC.h>
 #include <noggit/ui/FontAwesome.hpp>
 
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QFormLayout>
-#include <QtWidgets/qpushbutton.h>
-#include <QtWidgets/qgroupbox.h>
-#include <QtWidgets/qlineedit.h>
+#include <QVBoxLayout>
+#include <QFormLayout>
+#include <qpushbutton>
+#include <qgroupboxh>
+#include <qlineedit>
 #include <QListWidget>
 #include <QLabel>
 #include <QSpinBox>
