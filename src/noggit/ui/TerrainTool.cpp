@@ -17,7 +17,7 @@
 #include <QGroupBox>
 #include <QRadioButton>
 #include <QSlider>
-#include <VBoxLayout>
+#include <QVBoxLayout>
 
 #define _USE_MATH_DEFINES
 #include <math.h>
