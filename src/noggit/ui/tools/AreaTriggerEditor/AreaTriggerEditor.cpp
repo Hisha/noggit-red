@@ -28,6 +28,7 @@
 
 #include <format>
 #include <fstream>
+#include <stdexcept>
 #include <vector>
 
 namespace Noggit::Ui::Tools
@@ -176,7 +177,7 @@ namespace Noggit::Ui::Tools
     std::ofstream file{ file_path, std::ios_base::out };
     if (!file)
     {
-      throw std::exception{ std::format("Could not open file {}!", file_path).c_str() };
+      throw std::runtime_error{ std::format("Could not open file {}!", file_path).c_str() };
     }
 
     file << "ID,Zone Name,Sub Category,Trigger Name,IsBuiltIn,\n";
@@ -198,14 +199,14 @@ namespace Noggit::Ui::Tools
     QFile file{ QString::fromStdString(file_path) };
     if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
     {
-      throw std::exception{ std::format("Could not open file {}!", file_path).c_str() };
+      throw std::runtime_error{ std::format("Could not open file {}!", file_path).c_str() };
     }
 
     QTextStream stream{ &file };
     if (auto header = stream.readLine(); header != expeceted_header)
     {
       auto foo = header.toStdString();
-      throw std::exception{ std::format("File {} uses invalid header `{}`!", file_path, header.toStdString()).c_str() };
+      throw std::runtime_error{ std::format("File {} uses invalid header `{}`!", file_path, header.toStdString()).c_str() };
     }
 
     int line = 1;
