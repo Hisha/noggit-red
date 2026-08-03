@@ -7,9 +7,9 @@
 
 #include <QVBoxLayout>
 #include <QFormLayout>
-#include <qpushbutton>
-#include <qgroupboxh>
-#include <qlineedit>
+#include <QPushButton>
+#include <QGroupBoxh>
+#include <QLineEdit>
 #include <QListWidget>
 #include <QLabel>
 #include <QSpinBox>
