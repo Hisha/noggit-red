@@ -6,12 +6,12 @@
 
 #include <QVBoxLayout>
 #include <QFormLayout>
-#include <qgroupbox>
+#include <QGroupBox>
 #include <QPushButton>
 #include <QLabel>
 #include <QCheckBox>
 #include <QComboBox>
-#include <qlineedit>
+#include <QLineEdit>
 #include <QSpinBox>
 #include <QListWidget>
 #include <QToolButton>
