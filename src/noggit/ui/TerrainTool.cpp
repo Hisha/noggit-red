@@ -10,14 +10,14 @@
 #include <noggit/ui/tools/UiCommon/ImageMaskSelector.hpp>
 #include <noggit/World.h>
 
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/qcheckbox.h>
-#include <QtWidgets/QDial>
-#include <QtWidgets/QGridLayout>
-#include <QtWidgets/QGroupBox>
-#include <QtWidgets/QRadioButton>
-#include <QtWidgets/QSlider>
-#include <QtWidgets/QVBoxLayout>
+#include <QButtonGroup>
+#include <qcheckbox>
+#include <QDial>
+#include <QGridLayout>
+#include <QGroupBox>
+#include <QRadioButton>
+#include <QSlider>
+#include <VBoxLayout>
 
 #define _USE_MATH_DEFINES
 #include <math.h>
