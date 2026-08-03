@@ -28,7 +28,9 @@ add_compiler_flag_if_supported(CMAKE_CXX_FLAGS -Wno-c++98-compat-pedantic)
 #Covered by compilers used
 if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU" AND
    CMAKE_CXX_COMPILER_VERSION VERSION_GREATER_EQUAL 15)
-    add_compile_options(-Wno-template-body)
+    add_compile_options(
+        $<$<COMPILE_LANGUAGE:CXX>:-Wno-template-body>
+    )
 endif()
 add_compiler_flag_if_supported(CMAKE_CXX_FLAGS -Wno-gnu-anonymous-struct)
 add_compiler_flag_if_supported(CMAKE_CXX_FLAGS -Wno-variadic-macros)
