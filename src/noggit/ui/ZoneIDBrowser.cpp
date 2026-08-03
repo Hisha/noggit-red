@@ -12,18 +12,18 @@
 
 #include <QDialog>
 #include <QMessageBox>
-#include <QtWidgets/QCheckBox.h>
-#include <QtWidgets/QComboBox.h>
-#include <QtWidgets/QDoubleSpinBox>
-#include <QtWidgets/QFormLayout>
-#include <QtWidgets/qgroupbox.h>
-#include <QtWidgets/QLabel.h>
-#include <QtWidgets/qlineedit.h>
-#include <QtWidgets/QPushButton>
-#include <QtWidgets/QSlider>
-#include <QtWidgets/QSpinBox.h>
-#include <QtWidgets/QTreeWidget>
-#include <QtWidgets/QVBoxLayout>
+#include <QCheckBoxh>
+#include <QComboBoxh>
+#include <QDoubleSpinBox>
+#include <QFormLayout>
+#include <qgroupboxh>
+#include <QLabelh>
+#include <qlineedith>
+#include <QPushButton>
+#include <QSlider>
+#include <QSpinBoxh>
+#include <QTreeWidget>
+#include <QVBoxLayout>
 
 #include <bitset>
 #include <iostream>
