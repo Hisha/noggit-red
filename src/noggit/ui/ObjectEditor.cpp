@@ -32,9 +32,9 @@
 #include <QPushButton>
 #include <QRadioButton>
 #include <QSettings>
-#include <qcombobox>
+#include <QComboBox>
 #include <QDoubleSpinBox>
-#include <qgroupbox>
+#include <QGroupBox>
 #include <QMessageBox>
 #include <QSlider>
 
