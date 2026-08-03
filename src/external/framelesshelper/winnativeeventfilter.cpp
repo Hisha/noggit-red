@@ -40,7 +40,7 @@
 #include <QSettings>
 #include <QWindow>
 #include <QtMath>
-#include <qt_windows.h>
+#include <qt_windows>
 #if (QT_VERSION >= QT_VERSION_CHECK(5, 9, 0))
 #include <QOperatingSystemVersion>
 #else
