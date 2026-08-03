@@ -1,14 +1,14 @@
 #include "ui_Updater.h"
 #include "Updater.h"
 
-#include "qprocess.h"
-#include <qdir.h>
-#include <qdiriterator.h>
-#include <qfile.h>
-#include <qnetworkaccessmanager>
-#include <qnetworkreply>
-#include <qnetworkrequest>
+#include <QProcess>
+#include <QDir>
+#include <QDirIterator>
+#include <QFile>
 
+#include <QNetworkAccessManager>
+#include <QNetworkReply>
+#include <QNetworkRequest>
 
 namespace Noggit
 {
