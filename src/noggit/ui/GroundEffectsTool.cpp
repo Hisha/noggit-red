@@ -27,6 +27,8 @@
 #include <QtWidgets/QSpinBox>
 #include <QVBoxLayout>
 
+#include <cmath>
+
 namespace Noggit
 {
     namespace Ui
@@ -529,11 +531,13 @@ namespace Noggit
             for (auto& effect : _loaded_effects)
             {
                 // Same formula as in the shader.
-                float partr, partg, partb;
+               float partr;
+               float partg;
+               float partb;
                 // TODO : Can use id instead of count?
-                float r = modf(sin(glm::dot(glm::vec2(color_count), glm::vec2(12.9898, 78.233))) * 43758.5453, &partr);
-                float g = modf(sin(glm::dot(glm::vec2(color_count), glm::vec2(11.5591, 70.233))) * 43569.5451, &partg);
-                float b = modf(sin(glm::dot(glm::vec2(color_count), glm::vec2(13.1234, 76.234))) * 43765.5452, &partg);
+                float r = std::modf(std::sin(glm::dot(glm::vec2(color_count), glm::vec2(12.9898f, 78.233f))) * 43758.5453f, &partr);
+                float g = std::modf(std::sin(glm::dot(glm::vec2(color_count), glm::vec2(11.5591f, 70.233f))) * 43569.5451f, &partg);
+                float b = std::modf(std::sin(glm::dot(glm::vec2(color_count), glm::vec2(13.1234f, 76.234f))) * 43765.5452f, &partb);
                 color_count++;
                 _effects_colors.push_back(glm::vec3(r, g, b));
             }
