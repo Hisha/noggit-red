@@ -24,7 +24,7 @@
 
 #pragma once
 
-#include <QtCore/qglobal.h>
+#include <qglobal>
 
 #ifndef FRAMELESSHELPER_EXPORT
 #ifdef FRAMELESSHELPER_STATIC
