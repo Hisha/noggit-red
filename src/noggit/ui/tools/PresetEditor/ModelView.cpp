@@ -49,7 +49,7 @@ void ModelViewer::paintGL()
   renderParams.use_ref_pos = false;
   renderParams.angled_mode = false;
   renderParams.draw_paintability_overlay = false;
-  renderParams.editing_mode = editing_mode::ground;
+  renderParams.current_editing_mode = editing_mode::ground;
   renderParams.camera_moved = true;
   renderParams.draw_mfbo = false;
   renderParams.draw_terrain = true;
@@ -65,7 +65,7 @@ void ModelViewer::paintGL()
   renderParams.draw_fog = false;
   renderParams.ground_editing_brush = eTerrainType::eTerrainType_Flat;
   renderParams.water_layer = 0;
-  renderParams.display_mode = display_mode::in_3D;
+  renderParams.current_display_mode = display_mode::in_3D;
   renderParams.draw_occlusion_boxes = false;
   renderParams.minimap_render = false;
   renderParams.draw_wmo_exterior = true;
